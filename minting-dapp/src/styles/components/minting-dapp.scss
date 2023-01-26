@@ -43,7 +43,7 @@
       }
 
       .feedback-message {
-        @apply rounded-lg;
+        // @apply rounded-lg;
         @apply mt-4;
         @apply p-3;
         
@@ -67,7 +67,7 @@
   .collection-not-ready {
     @apply flex items-center justify-center;
     @apply px-6 py-4;
-    @apply rounded-lg;
+    // @apply rounded-lg;
 
     @apply text-popups-txt text-sm;
     @apply bg-popups-bg;
@@ -82,7 +82,7 @@
 
   .collection-status {
     @apply grid sm:grid-cols-2 auto-rows-min;
-    @apply rounded-lg;
+    // @apply rounded-lg;
 
     @apply font-mono;
     @apply text-popups-txt text-sm;
@@ -127,7 +127,7 @@
   }
 
   .cannot-mint, .not-mainnet, .collection-sold-out {
-    @apply rounded-lg;
+    // @apply rounded-lg;
     @apply px-6 py-4;
 
     @apply text-popups-txt text-center;
@@ -164,7 +164,7 @@
 
   .mint-widget {
     @apply flex flex-col items-center;
-    @apply rounded-lg;
+    // @apply rounded-lg;
     @apply overflow-hidden;
 
     @apply text-popups-txt text-center;

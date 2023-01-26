@@ -116,6 +116,12 @@ const config: HardhatUserConfig = {
       timeout: 60000,
       gasMultiplier: DEFAULT_GAS_MULTIPLIER,
     },
+    // goerli: {
+    //   url: 'https://goerli.infura.io/v3/8d73869d68a545d38462b443c801525f',
+    //   timeout: 60000,
+    //   gasMultiplier: DEFAULT_GAS_MULTIPLIER,
+    //   accounts: [process.env.NETWORK_MAINNET_PRIVATE_KEY!],
+    // },
   },
   gasReporter: {
     enabled: process.env.REPORT_GAS !== undefined,
@@ -128,6 +134,9 @@ const config: HardhatUserConfig = {
       goerli: process.env.BLOCK_EXPLORER_API_KEY,
       mainnet: process.env.BLOCK_EXPLORER_API_KEY,
       rinkeby: process.env.BLOCK_EXPLORER_API_KEY,
+
+      //bsc
+      bsc: process.env.BLOCK_EXPLORER_API_KEY,
 
       // Polygon
       polygon: process.env.BLOCK_EXPLORER_API_KEY,

@@ -14,20 +14,20 @@ module.exports = {
           from_bg: colors.slate[100],
           to_bg: colors.slate[200],
         },
-        titles: colors.indigo[600],
+        titles: '#4D3FEC',
         links: {
-          txt: colors.indigo[600],
-          hover_txt: colors.indigo[700],
+          txt: '#4D3FEC',
+          hover_txt: '#362BA8',
         },
         loading_spinner: colors.indigo[500],
         popups: {
           bg: colors.white,
-          txt: colors.slate[800],
+          txt: '#4D3FEC',
           internal_border: colors.slate[200],
         },
         warning: {
-          txt: colors.slate[800],
-          bg: colors.yellow[400],
+          txt: colors.white,
+          bg: '#302B84',
           border: colors.yellow[500],
         },
         error: {
@@ -38,20 +38,20 @@ module.exports = {
 
         // Inputs
         btn: {
-          txt: colors.slate[800],
-          bg: colors.white,
-          border: colors.slate[200],
-          hover_txt: colors.slate[800],
-          hover_bg: colors.slate[100],
-          hover_border: colors.slate[200],
+          txt: colors.white,
+          bg: '#161626',
+          border: '#9A9AA6',
+          hover_txt: colors.white,
+          hover_bg: '#1C1C34',
+          hover_border: '#C6C6CC',
         },
         btn_primary: {
           txt: colors.white,
-          bg: colors.indigo[500],
-          border: colors.indigo[500],
+          bg: '#302B84',
+          border: '#2D2D33',
           hover_txt: colors.white,
-          hover_bg: colors.indigo[600],
-          hover_border: colors.indigo[600],
+          hover_bg: '#363562',
+          hover_border: '#7D7D8B',
         },
         btn_error: {
           txt: colors.white,
@@ -61,15 +61,15 @@ module.exports = {
           hover_bg: colors.red[600],
           hover_border: colors.red[600],
         },
-        label: colors.indigo[600],
+        label: '#4D3FEC',
         txt_input: {
-          txt: colors.indigo[600],
+          txt: '#4D3FEC',
           bg: colors.white,
           border: colors.slate[200],
-          focus_txt: colors.indigo[600],
+          focus_txt: '#4D3FEC',
           focus_bg: colors.slate[50],
           focus_border: colors.indigo[300],
-          placeholder_txt: colors.indigo[600],
+          placeholder_txt: '#4D3FEC',
         },
         
         // Whitelist proof widget
