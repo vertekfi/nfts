@@ -1,5 +1,25 @@
 // SPDX-License-Identifier: MIT
 
+/***
+ *   ___      ___  _______   _______  ___________  _______  __   ___      _____  ___    _______  ___________  ________  
+ *|"  \    /"  |/"     "| /"      \("     _   ")/"     "||/"| /  ")    (\"   \|"  \  /"     "|("     _   ")/"       ) 
+ * \   \  //  /(: ______)|:        |)__/  \\__/(: ______)(: |/   /     |.\\   \    |(: ______) )__/  \\__/(:   \___/  
+ *  \\  \/. ./  \/    |  |_____/   )   \\_ /    \/    |  |    __/      |: \.   \\  | \/    |      \\_ /    \___  \    
+ *   \.    //   // ___)_  //      /    |.  |    // ___)_ (// _  \      |.  \    \. | // ___)      |.  |     __/  \\   
+ *    \\   /   (:      "||:  __   \    \:  |   (:      "||: | \  \     |    \    \ |(:  (         \:  |    /" \   :)  
+ *     \__/     \_______)|__|  \___)    \__|    \_______)(__|  \__)     \___|\____\) \__/          \__|   (_______/   
+ *  
+ * Vertek Landing Page: https://www.vertek.org/
+ * Vertek Dapp: https://www.vertek.exchange/ 
+ * Discord: https://discord.gg/vertek-ames-aalto
+ * Medium: https://medium.com/@verteklabs
+ * Twitter: https://twitter.com/Vertek_Dex
+ * Telegram: https://t.me/aalto_protocol
+ */
+
+
+                                                                                                                    
+
 pragma solidity >=0.8.9 <0.9.0;
 
 import 'erc721a/contracts/extensions/ERC721AQueryable.sol';
@@ -7,7 +27,7 @@ import '@openzeppelin/contracts/access/Ownable.sol';
 import '@openzeppelin/contracts/utils/cryptography/MerkleProof.sol';
 import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
 
-contract TestNFT is ERC721AQueryable, Ownable, ReentrancyGuard {
+contract VertekFox is ERC721AQueryable, Ownable, ReentrancyGuard {
 
   using Strings for uint256;
 
